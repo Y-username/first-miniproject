@@ -14,5 +14,6 @@
 - set 1/3 of the screen for image, and 2/3 for others
 - import fonts from googlefonts to css file
 - add some basic margin to set up the page
-- add the profile photo as logo for the page which always take user to home page
-- 
+- add the profile photo as logo for the page which always take user to home page. anchor tag, column class, logo class to set up the features
+3. add the owner's name and title
+- add row and col in the other 2/3 of the row and editing bg color
