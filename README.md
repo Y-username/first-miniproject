@@ -60,7 +60,10 @@
 5. add header in new column and rows for info included
 - styling the info section: create maxi space between each row
 - positioned and styled each class level of personal info section
-6. set up resume page
+6. set up resume.html page
+- set up basic grid of resume page
+- add progress bar by class="progress-bar" role="progressbar"
+- style the progress bar
 
 
 ### *Important to understand or mistakes!!!!
