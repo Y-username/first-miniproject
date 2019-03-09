@@ -50,7 +50,12 @@
 - make all footer elements less hocked up on top, add padding for footer
 
 #### Add content to homepage
-1. 
+1. creat contact.html and resume.html files before content part, cause they are the same in each webpage
+2. set up properties for container, table and each column
+3. add rows for three reasons why hire Rosie
+- set up header in one row
+- add up new row for first reason to hire Rosie
+- 
 
 
 ### *Important to understand or mistakes!!!!
@@ -62,3 +67,5 @@
 6. line17,22,28 to close all gutters of columns (bootstrap padding to all columns by default), add no-gutters class to all the rows
 7. in anchor tag, target="_blank" means the link will open in a new tab!!
 8. line67, add transition to cv-pdf class. always add transition to parents class
+9. ? line51 why col-md-8 instead of col-md-4
+10. div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6" means 1 col in 10col size on mobile with 1col on left and right side as margin, no margin on tablet and desktop, 3 col on tablet and 2 col on desktop

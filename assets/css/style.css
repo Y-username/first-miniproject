@@ -20,6 +20,11 @@
 .bg-color-three-reasons {
     background-color: #fff;
 }
+.trying {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
 /*-------------------------------------------special paddings/margins/text*/
 
 h1,h2,h3,h4{
