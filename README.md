@@ -55,7 +55,9 @@
 3. add rows for three reasons why hire Rosie
 - set up header in one row
 - add up new row for first reason to hire Rosie
-- 
+- copy the new row code and change content for other two reasons
+4. add new column of col-md-4 above col-md-8, casue elements are rendered in the order they appear in HTML by default
+5. add header in new column and rows for info included
 
 
 ### *Important to understand or mistakes!!!!
