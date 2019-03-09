@@ -1,11 +1,13 @@
 # User Centric Design resume
 
-#### New Dictionary 
+### *New Dictionary 
 1. BootstrapCDN: bootstrap content delivery network. to enter bootstrap externally
-2. 
+2. sr-only: screen reader only. will not be displayed on a regular screen
 
 
-#### Steps
+### *Steps
+
+#### Set up header
 1. Put together the basic project components
 - create initial boilerplate 
 - add bootstrap and font awesome links
@@ -33,13 +35,30 @@
 - get hover.css link from https://cdnjs.com/ (a content delivery network for open source projects)
 - add hvr-sweep-to-bottom class to each anchor tag
 - edit hvr-sweep-to-bottom class in .css file. switch to a nicer background color when hovered
-     
+
+#### Set up footer     
+1. make footer a flexible full width container
+2. break footer into 3 sections: about me, download my CV and social links
+3. creat a catch all set of style rules like .uppercase, .general-sub.
+4. set up footer properties: bg color, font color, height, etc..
+5. add footer content
+- add a paragraph in About me section
+- add up download link and icon (also sr-only)
+- add a list of social media
+- go to .css file to edit footer
+- styling the social links
+- make all footer elements less hocked up on top, add padding for footer
+
+#### Add content to homepage
+1. 
 
 
-#### Important to understand or mistakes!!!!
+### *Important to understand or mistakes!!!!
 1. line31 class="col-6 col-sm-3" means tow columns in mobile screen and 4 columns on any device larger than small screen! (bootstrap is mobile first)
 2. line32 <span> inside <a> tag is because we need to target it later when using font awesome and hover.css
 3. line30 the 4 navigation elements are 4 <li> elements, not 4 <a>!! When put 4 anchors into one list, they will squezed in one column. but when put 4 list items, they will seperate into 4 columns, but still 1 column was wrapped into the others
 4. ! line30 when we display inline items, the white space in HTML file becames visible as single space between items. the way to solve this, is to creat a container with a font-size of 0. 
 5. ! in order to solve the problem that font-size is 0 in menucontainter class. we override the font-size by targeting ID #nav and all list items inside it
 6. line17,22,28 to close all gutters of columns (bootstrap padding to all columns by default), add no-gutters class to all the rows
+7. in anchor tag, target="_blank" means the link will open in a new tab!!
+8. line67, add transition to cv-pdf class. always add transition to parents class
