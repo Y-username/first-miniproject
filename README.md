@@ -58,6 +58,9 @@
 - copy the new row code and change content for other two reasons
 4. add new column of col-md-4 above col-md-8, casue elements are rendered in the order they appear in HTML by default
 5. add header in new column and rows for info included
+- styling the info section: create maxi space between each row
+- positioned and styled each class level of personal info section
+6. set up resume page
 
 
 ### *Important to understand or mistakes!!!!
@@ -69,5 +72,4 @@
 6. line17,22,28 to close all gutters of columns (bootstrap padding to all columns by default), add no-gutters class to all the rows
 7. in anchor tag, target="_blank" means the link will open in a new tab!!
 8. line67, add transition to cv-pdf class. always add transition to parents class
-9. ? line51 why col-md-8 instead of col-md-4
-10. div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6" means 1 col in 10col size on mobile with 1col on left and right side as margin, no margin on tablet and desktop, 3 col on tablet and 2 col on desktop
+9. div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6" means 1 col in 10col size on mobile with 1col on left and right side as margin, no margin on tablet and desktop, 3 col on tablet and 2 col on desktop
