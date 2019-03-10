@@ -68,7 +68,11 @@
 - firstly do styling, make work history background match header colors
 - creat custom attributes called data-dates and data-...,the prefix "data-" is important for other developers to read
 - <strong>set up the class value of timeline (which is a left border with a before/aftre pseudo class)</strong> 
-
+8. edit contact.html page
+- set up header for contact page
+- insert a form snippt from bootstrap. this form will consist 4 components, 2 text input fields, 1 text area and a button
+- styling contact heading and contact form
+- start a mediaquery to make contact form even smaller on desktop
 
 ### *Important to understand or mistakes!!!!
 1. line31 class="col-6 col-sm-3" means tow columns in mobile screen and 4 columns on any device larger than small screen! (bootstrap is mobile first)
@@ -80,4 +84,7 @@
 7. in anchor tag, target="_blank" means the link will open in a new tab!!
 8. line67, add transition to cv-pdf class. always add transition to parents class
 9. div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6" means 1 col in 10col size on mobile with 1col on left and right side as margin, no margin on tablet and desktop, 3 col on tablet and 2 col on desktop
-10. ! css file .timeline-item:before, do not understand at all why use a pseudo class here to make the sopt on left border
+10. <strong>! css file .timeline-item:before, do not understand at all why use a pseudo class here to make the sopt on left border</strong>
+
+### *Question solved
+1. Q10 the before/after pseudo elements: https://www.youtube.com/watch?v=zGiirUiWslI
