@@ -72,7 +72,9 @@
 - set up header for contact page
 - insert a form snippt from bootstrap. this form will consist 4 components, 2 text input fields, 1 text area and a button
 - styling contact heading and contact form
-- start a mediaquery to make contact form even smaller on desktop
+- start a media query to make contact form even smaller on desktop
+9. creat CV.pdf download and wire up all pages together
+- 
 
 ### *Important to understand or mistakes!!!!
 1. line31 class="col-6 col-sm-3" means tow columns in mobile screen and 4 columns on any device larger than small screen! (bootstrap is mobile first)
